@@ -31,7 +31,7 @@ Among other things, Puppeteer can be used to easily take screenshots, create PDF
 ```javascript
 npm i puppeteer
 ```
-**Example** - print the user agent <br>
+**Example 1** - print the user agent <br>
 ```javascript
 const puppeteer = require('puppeteer');
 
@@ -41,5 +41,20 @@ const puppeteer = require('puppeteer');
   await browser.close();
 })();
 ```
+**Example 2** - take a pdf screenshot <br>
+```javascript
+// packages importing
+const puppeteer = require('puppeteer');
+(async ()=>{
+    const broswer = await puppeteer.launch();
+    
+    const page = await broswer.newPage();
+    await page.goto('https://www.google.com/' , {waitUntil: 'networkidle2'});
 
+    await page.pdf({path: 'test.pdf' , format: 'A4'})
+
+    await broswer.close();
+})();
+
+```
 <!-- End Puppeteer nodejs -->
