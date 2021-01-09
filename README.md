@@ -8,7 +8,7 @@
 **What is the meaing of Chrome Headless ? and what can W do with it ?** <br>
 **Chrome Headless**: is a Chrome with/out Chrome , A headless browser is a great tool for automated testing and server environments where you don't need a visible UI shell. For example, you may want to run some tests against a real web page, create a PDF of it, or just inspect how the browser renders an URL. <br>
 **Common command used by Chrome Headless**
-**CMD** | **Benefit**|
+**CMDs** | **Benefits**|
 -------------|---------|
 --enable-logging | Enable API return it's basically return the DEBUG messages after executing the command line as stdout
 --headless | Runs Chrome in headless mode
