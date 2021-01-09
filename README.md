@@ -13,7 +13,7 @@
 --enable-logging | Enable API return it's basically return the DEBUG messages after executing the command line as stdout
 --headless | Runs Chrome in headless mode
 --disable-gpu | Temporarily needed if running on Windows
---print-to-pdf=PATH:\filename.PDF | Generate a PDF shot for any website
+--print-to-pdf=PATH:\FN.PDF | Generate a PDF shot for any website
 --screenshot=PATH:\filename.png | Get a screenshot for any website 
 --dump-dom | The --dump-dom flag prints document.body.innerHTML to stdout
 
