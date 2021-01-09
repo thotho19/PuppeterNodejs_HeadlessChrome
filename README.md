@@ -3,11 +3,10 @@
 [![Website](https://img.shields.io/website?label=MSMAR-CVMAKER&style=for-the-badge&url=https%3A%2F%2Fcodestackr.com)](https://msmar-cvmaker.com)
 [![Twitter Follow](https://img.shields.io/twitter/follow/Thotho007?color=1DA1F2&logo=twitter&style=for-the-badge)](https://twitter.com/intent/follow?original_referer=https%3A%2F%2Fgithub.com%2FcodeSTACKr&screen_name=Thotho007)
 <!-- [END BADGES] -->
-<br>
+
 <!-- Headless content -->
 **What is the meaing of Chrome Headless ? and what can W do with it ?** <br>
 **Chrome Headless**: is a Chrome with/out Chrome , A headless browser is a great tool for automated testing and server environments where you don't need a visible UI shell. For example, you may want to run some tests against a real web page, create a PDF of it, or just inspect how the browser renders an URL. <br>
-<br>
 **Common command used by Chrome Headless**
 **CMD** | **Benefit**|
 -------------|---------|
@@ -19,7 +18,7 @@
 --dump-dom | The --dump-dom flag prints document.body.innerHTML to stdout for any website page
 
 <!-- End Headless content -->
-<br>
+
 <!-- Start Puppeteer nodejs -->
 # Using Chrome headless programmatically (nodejs)
 **What is Puppeteer ?** <br>
